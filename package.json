@@ -1,0 +1,17 @@
+{
+  "name": "ts-config-hardcore",
+  "version": "1.0.0",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "imports": {
+    "#dynamic/*": "./dist/src/dynamic/*"
+  }
+  
+}
